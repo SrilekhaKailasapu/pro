@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar Layout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar-brand"><a href="#"><img src="jevelin.jpeg" alt="" width="60" height="30"></a></div>
+            <input type="checkbox" id="toggleMenu">
+            <label for="toggleMenu" class="menu-icon">&#9776;</label>
+            <ul class="navbar-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#shop">shop</a></li>
+                <li><a href="#decor">decor</a></li>
+                <li><a href="#plant">plant</a></li>
+                <li><a href="#light">light</a></li>
+                <li><a href="#chair">chair</a></li>
+            </ul>
+            <ul class="navbar-right" class="navbar-links">
+                <a href="#"><img src="tw.png" alt="" width="30" height="40"></a>
+                <a href="#"><img src="ins.png" alt="" width="30" height="30"></a>
+                <a href="#"><img src="fb.png" alt="fb" width="20" height="30"></a>
+                <a href="#"><img src="search.png" alt="" width="30" height="30"></a>
+                <a href="#"><img src="cart0.png" alt="" width="30" height="40"></a>   
+            </div>
+        </nav>
+    </header> 
+    <div class="gap"></div>
+    <div class="container" id="home">
+        <div class="content" id="content">
+            <button>New collection</button>
+            <h1>Fill your home with uniqueness</h1>
+            <p>Huge variety with modern glamour!</p>
+        </div>
+        <div class="image-container">
+            <img src="voguesofa.jpg" alt="Responsive Image" width="700" height="700">
+        </div>
+    </div>
+    <p class="discount">! Use discount code: FIRSTTIME to get <a href="#" class="off">10% off</a> your first order!</p> <hr>
+    <div class="images" id="shop">
+        <div class="images">
+            <img src="light.png" alt="" width="350" height="400">
+            <div class="text">
+                <button>New collection</button>
+                <h2>Light & <br> Decor</h2>
+                <a href="#" class="showmore">show more  &lt</a>
+            </div>    
+        </div>
+        <div class="images">
+            <img src="kitchen.jpg" alt="" width="350" height="400">
+            <div class="text">
+                <h2>Kitchen</h2>
+                <h2>Cutlery</h2>
+                <a href="#">show more  &lt</a>
+            </div>
+        </div>
+        <div class="images">
+            <img src="living.avif" alt="" width="350" height="400">
+            <div class="text" id="text">
+                <button>Sale</button>
+                <h2>Living</h2>
+                <h2>Room</h2>
+                <a href="#">show more  &lt</a>
+            </div>
+        </div>
+    </div> 
+    <div class="beauty" id="plant">
+        <div class="beauty-images">
+            <img src="baloon.jpeg" alt="" width="80" height="50" class="baloon" id="beauty">
+            <img src="canstudio.jpeg" alt="" width="80" height="50" class="canstudio" id="beauty">
+            <img src="mkit.jpeg" alt="" width="80" height="50" class="mkit" id="beauty">
+            <img src="musclebase.jpeg" alt="" width="80" height="50" class="musclebase" id="beauty">
+            <img src="sbeauty.jpeg" alt="" width="80" height="50" class="sbeauty" id="beauty">
+            <img src="sh.jpeg" alt="" width="80" height="50" class="sh" id="beauty">
+        </div>
+    </div>
+    <div id="wrapper">
+        <img src="silverstand.jpeg" alt="Timeline" width="300" height="400"/>
+        <div class="purchase">
+         <p>our special offer</p> 
+         <h2>Featured products with amazing color variety for your home</h2>
+         <button>purchase</button>
+        </div>  
+     </div> 
+     <div class="icons">
+        <div class="clock" id="icon">
+            <img src="clock.png" alt="" width="60px" height="60px">
+            <h2>24 h Shipping</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo felis, consectetur id elit id.</p>
+        </div>
+        <div class="drive" id="icon">
+            <img src="drive.png" alt="" width="70" height="60">
+            <h2>Free Returns</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo felis, consectetur id elit id.</p>
+        </div>
+        <div class="wallet" id="icon">
+            <img src="wallet.png" alt="" width="70" height="60">
+            <h2>100% Money Back Guarantee</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo felis, consectetur id elit id.</p>
+        </div>        
+    </div>
+    <div class="ideas" id="decor">
+        <center><h1>Ideas for inspiration</h1></center>
+        <img src="bigsofa.jpg" alt="" width="800" height="500" class="sofa">
+    </div>
+    <div class="store-find">
+        <div class="store">
+            <h2>Find the closest store to your location</h2>
+            <p>Quisque ut aliquam nunc, at finibus ante. Sed dignissim, nulla a fermentum egestas, odio</p>
+        </div>
+        <div class="find">
+            <a href="#" class="box"><button class="now">Find now</button></a>
+        </div>
+    </div>
+    <h1 class="deals">Great deals for <br>great prices</h1>
+    <div class="product-grid">
+        <div class="product-item">
+          <img src="pot.jpg" alt="" width="200" heigh="100">
+          <h3>Table Succulent Plant </h3>
+          <p>£5.00</p>
+          <button>&#128722;</button>
+        </div>
+        <div class="product-item" id="light">
+            <img src="bedlamp.jpeg" alt="" width="200" heigh="100">
+            <h3>Metallic sidetable lamp</h3>
+            <p>£5.00</p>
+            <button>&#128722;</button>
+        </div>
+        <div class="product-item">
+            <img src="dressing.jpeg" alt="" width="200" heigh="100">
+            <h3>Wooden picture frame</h3>
+            <p>£5.00</p>
+            <button>&#128722;</button>
+        </div>
+        <div class="product-item">
+            <img src="mirror.jpeg" alt="" width="200" heigh="100">
+            <h3>Bedroom mirror</h3>
+            <p>£5.00</p>
+            <button>&#128722;</button>
+        </div>
+        <div class="product-item" id="chair">
+            <img src="chair.jpeg" alt="" width="200" heigh="100">
+            <h3>Minimalistic chair</h3>
+            <p>£5.00</p>
+            <button>&#128722;</button>
+        </div>
+        <div class="product-item">
+            <img src="squareplant.jpeg" alt="" width="200" heigh="100">
+            <h3>Cactus succulent plant</h3>
+            <p>£5.00</p>
+            <button>&#128722;</button>
+        </div>
+        <div class="product-item">
+            <img src="sofaimage.jpeg" alt="" width="200" heigh="100">
+            <h3>Decorative pillow</h3>
+            <p>£5.00</p>
+            <button>&#128722;</button>
+        </div>
+        <div class="product-item">
+            <img src="lamp.jpeg" alt="" width="200" heigh="100">
+            <h3>Metallic table lamp</h3>
+            <p>£5.00</p>
+            <button>&#128722;</button>
+        </div>
+    </div>
+    <div class="letter">
+        <h1 class="letter">Join the newsletter</h1>
+        <p class="letter">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris</p>
+        <input type="text" placeholder="please enter your email here....."><button class="subscribe">Subscribe</button>
+    </div>
+    <hr>
+    <footer>
+        <div class="container">
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h4>PAYMENT METHOD</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.</p>
+                    <img src="visa.png" alt="" height="20" width="20">
+                    <img src="circle.png" alt="" height="20" width="20">
+                    <img src="american.png" alt="" height="20" width="20">
+                    <img src="paypal.png" alt="" height="20" width="20">
+                    <img src="jcb.png" alt="" height="20" width="20">
+                    <p>&#128274;Secure online payment</p>
+                </div>
+                <div class="footer-column">
+                    <h4 >TOP RATED</h4>
+                    <ul class="toprated">
+                        <li><img src="pot.jpg" alt="" width="30" height="30"><a href="#" class="a">Table Succulent plant <br> &#163;5.00</a>
+                        <li><img src="bedlamp.jpeg" alt="" width="30" height="30"><a href="#" class="a">Metallic sidetable lamp <br> &#163;5.00</a></li>
+                        <li><img src="dressing.jpeg" alt="" width="30" height="30"><a href="#" class="a">Wooden picture frame <br>&#163;5.00</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>SHOPPING GUIDE</h4>
+                    <ul>
+                        <li><a href="#" class="a">FAQ</a></li>
+                        <li><a href="#" class="a">Shipment</a></li>
+                        <li><a href="#" class="a">Returns</a></li>
+                        <li><a href="#" class="a">Policies</a></li>
+                        <li><a href="#" class="a">Gift cards</a></li>
+                        <li><a href="#" class="a">Clothing care</a></li>
+                        <li><a href="#" class="a">Purchase conditions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>COMPANY</h4>
+                    <ul>
+                        <li><a href="#" class="a">About</a></li>
+                        <li><a href="#" class="a">Press</a></li>
+                        <li><a href="#" class="a">Our team</a></li>
+                        <li><a href="#" class="a">Offices</a></li>
+                        <li><a href="#" class="a">Affiliates</a></li>
+                        <li><a href="#" class="a">Giveaway</a></li>
+                        <li><a href="#" class="a">Contact</a></li>
+                    </ul>
+                </div>
+            </div> <hr>
+        </div>
+        <div class="myshop">
+            <center>&copy; 2024 MyShop. All rights reserved.</center>
+        </div>
+    </footer>     
+</body>
+</html>
