@@ -141,8 +141,8 @@ a:hover{
 .text{
   position: absolute;
   text-align: center;
-  margin-top: 3em;
-  margin-left: 3em;
+  margin-top:-2em;
+  margin-left:-3em;
   padding:70px;
 }
 .text button{
@@ -498,7 +498,7 @@ footer {
 
   .menu-icon {
       display: block;
-      margin-right:2.5em;
+      margin-right:0;
   }
 
  
